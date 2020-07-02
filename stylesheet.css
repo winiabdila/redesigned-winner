@@ -1,0 +1,60 @@
+footer {
+    background-color: rgb(95, 75, 209);
+    border-top: 1px solid #eee;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-left img {
+    height: 100px;
+    padding: 30px 100px;
+}
+
+.facebook {
+    font-size: 30px;
+    color: black;
+}
+
+.twitter {
+    font-size: 30px;
+    color: black;
+}
+
+.instagram {
+    font-size: 30px;
+    color: black;
+}
+
+.sosmed {
+    padding-left: 50 px;
+}
+
+.sosmed a {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.info {
+    padding-right: 150px;
+    display: flex;
+    justify-self: start;
+}
+
+.info h3 {
+    color: black;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+.info p {
+    font-size: 20px;
+    line-height: 2px;
+    width: 100%;
+}
+
+.alamat {
+    padding: 0 100px;
+}
