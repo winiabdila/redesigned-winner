@@ -1,60 +1,48 @@
 footer {
-    background-color: rgb(95, 75, 209);
-    border-top: 1px solid #eee;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  background-color: rgb(95, 75, 209);
+  border-top: 1px solid #eee;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer-left img {
-    height: 100px;
-    padding: 30px 100px;
-}
-
-.facebook {
-    font-size: 30px;
-    color: black;
-}
-
-.twitter {
-    font-size: 30px;
-    color: black;
-}
-
-.instagram {
-    font-size: 30px;
-    color: black;
-}
-
-.sosmed {
-    padding-left: 50 px;
-}
-
-.sosmed a {
-    text-align: center;
-    padding: 20px 20px;
+  height: 100px;
+  margin: 30px 30px;
 }
 
 .info {
-    padding-right: 150px;
-    display: flex;
-    justify-self: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.info h3 {
-    color: black;
-    font-size: 25px;
-    line-height: 10px;
+.info-content {
+  margin: 0 10px;
 }
 
-.info p {
-    font-size: 20px;
-    line-height: 2px;
-    width: 100%;
+.sosmed a {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  margin: 0 10px;
 }
 
-.alamat {
-    padding: 0 100px;
+@media (max-width: 767px) and (min-width: 0px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sosmed {
+    padding: 30px 10px;
+  }
 }
